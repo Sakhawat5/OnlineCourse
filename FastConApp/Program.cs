@@ -7,32 +7,25 @@ namespace FastConApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter the fast input:");
             string fastNumStr = Console.ReadLine();
             int fast = Convert.ToInt32(fastNumStr);
+            Console.WriteLine("Enter the second input:");
             string secondNumStr = Console.ReadLine();
             int second = Convert.ToInt32(secondNumStr);
 
-            int total = Add(fast, second);
-            Console.WriteLine(total);
+            int total = Calculate.Add(fast, second);
+            
+            Console.WriteLine("Addition : "+total);
 
-            int sub = Subtract(fast, second);
+            int sub = Calculate.Subtract(fast, second);
 
-            Console.WriteLine(sub);
+            Console.WriteLine("subtraction : " + sub);
             
             //int result = fast + second;
             //Console.WriteLine(result);
 
             Console.ReadKey();
-        }
-
-        public static int Add(int fast, int second)
-        {
-            return fast + second;
-        }
-
-        public static int Subtract(int fast, int second)
-        {
-            return fast - second;
         }
     }
 
