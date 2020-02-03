@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastConApp", "FastConApp\FastConApp.csproj", "{FDEAC667-FFE3-4B28-8B5F-AAA702154C89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDEAC667-FFE3-4B28-8B5F-AAA702154C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDEAC667-FFE3-4B28-8B5F-AAA702154C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDEAC667-FFE3-4B28-8B5F-AAA702154C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDEAC667-FFE3-4B28-8B5F-AAA702154C89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {881D5B9B-73EB-43C5-8A83-E510930A954B}
+	EndGlobalSection
+EndGlobal
